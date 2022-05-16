@@ -180,23 +180,11 @@ h2 {
 /* Footer
    ------------------------------ */
 
-/* .site-footer {
-  padding: 100px 0 1rem 0;
+footer {
+  font-family: var(--sans-reg);
+  opacity: 0.8;
 }
 
-@media (max-width: 620px) {
-  .site-nav footer {
-    display: block;
-  }
-} */
-
-/* Copyright */
-/* .site-footer p.copyright {
-  font-size: 1rem;
-  color: #666;
-  text-align: right;
-  font-family: var(--sans-med);
-} */
 
 /* Singular 
    ------------------------------ */
