@@ -51,6 +51,9 @@ font-family: "HalisR-S-Medium";
   font-style: normal;
 }
 
+/* Adode fonts */
+/* @import url("https://use.typekit.net/xda0lvh.css"); */
+
 /* Variables
    ------------------------------ */
 :root {
@@ -62,6 +65,10 @@ font-family: "HalisR-S-Medium";
   --sans-reg: "HalisR-Regular", sans-serif;
   --sans-med: "HalisR-Medium", sans-serif;
   --serif: ff-tisa-web-pro, serif;
+
+  --eksell-body-font: ff-tisa-web-pro, serif;
+  --eksell-headings-font: "HalisR-Medium", sans-serif;
+  --eksell-headings-weight: 600;
 }
 
 /* Base
