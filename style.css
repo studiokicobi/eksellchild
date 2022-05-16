@@ -1,0 +1,332 @@
+/**
+ * Theme Name: Eksell Child
+ * Description: Eksell Child Theme
+ * Theme URI:
+ * Author: mrahmadawais, WPTie, Colin Lewis
+ * Author URI: https://colinlewis.se/
+ * Template: eksell
+ * Version: 1.0.0
+ * @package aa
+ */
+
+/* ----------------------------------------------------------------------------
+ * Child Theme Style.css styles
+ * ------------------------------------------------------------------------- */
+
+/* Fonts
+   ------------------------------ */
+/* 
+font-family: "HalisR-Regular";
+font-family: "HalisR-Medium";
+font-family: "HalisR-S-Medium";
+*/
+
+@font-face {
+  font-family: "HalisR-Regular";
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksell-child/fonts/HalisR-Regular-webfont.woff2")
+      format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/eksell-child/fonts/HalisR-Regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-Medium";
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksell-child/fonts/HalisR-Medium-webfont.woff2")
+      format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/eksell-child/fonts/HalisR-Medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-S-Medium";
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksell-child/fonts/HalisR-S-Medium-webfont.woff2")
+      format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/eksell-child/fonts/HalisR-S-Medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Variables
+   ------------------------------ */
+:root {
+  /* Colours */
+  --text-color: #2c2525;
+  --bg-color: #fffbf9;
+
+  /* Fonts */
+  --sans-reg: "HalisR-Regular", sans-serif;
+  --sans-med: "HalisR-Medium", sans-serif;
+  --serif: ff-tisa-web-pro, serif;
+}
+
+/* Base
+   ------------------------------ */
+/* Change default font */
+body {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+/* .preview-header {
+  font-family: var(--sans-med);
+  font-weight: normal;
+}
+
+.preview-image::after {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+p {
+  margin: 0 0 0.5rem;
+}
+
+p ~ ul {
+  margin-top: 2rem;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+} */
+
+/* Nav 
+   ------------------------------ */
+
+/* .site-header {
+  background-color: var(--bg-color);
+}
+
+.site-nav {
+  margin: 30px 0 0;
+}
+
+.site-nav ul ul {
+  margin: 20px 0 0 1rem;
+}
+
+.site-nav footer p:last-child {
+  float: none;
+  font-style: italic;
+  font-size: 1.35rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.site-nav footer a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.site-nav li {
+  font-size: 1.75rem;
+}
+
+.site-nav li ul.sub-menu li {
+  font-size: 1.35rem;
+}
+
+.nav-title {
+  margin-top: 2rem;
+  font-family: var(--sans-med);
+  font-size: 2rem;
+}
+
+.nav-outro {
+  max-width: 90%;
+} */
+
+/* Stack menus */
+/* .site-nav .menus > ul {
+  float: none;
+  width: auto;
+}
+
+.site-nav ul + ul {
+  margin-left: 0;
+} */
+
+/* Secondary menu */
+/* #menu-secondary {
+  margin-top: 2rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid #ddd;
+}
+
+#menu-secondary li {
+  font-size: 1.35rem;
+  font-family: var(--serif);
+}
+
+.site-nav ul + ul a {
+  color: var(--text-color);
+} */
+
+/* Footer
+   ------------------------------ */
+
+/* .site-footer {
+  padding: 100px 0 1rem 0;
+}
+
+@media (max-width: 620px) {
+  .site-nav footer {
+    display: block;
+  }
+} */
+
+/* Copyright */
+/* .site-footer p.copyright {
+  font-size: 1rem;
+  color: #666;
+  text-align: right;
+  font-family: var(--sans-med);
+} */
+
+/* Singular 
+   ------------------------------ */
+
+/* Meta */
+/* .meta {
+  font-style: italic;
+} */
+
+/* Full-bleed utility */
+/* .fullbleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+} */
+
+/* Dark with margins, for use with images + .fullbleed */
+/* .dark {
+  padding: 2rem;
+  background: #222;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+} */
+
+/* Make the related post images square */
+/* .related-posts .post-preview .preview-image:before {
+  padding-bottom: 100%;
+}
+
+.related-posts {
+  margin: 0 -11px;
+  transform: translateX(1px);
+}
+
+.related-posts-wrapper {
+  margin-top: 0;
+}
+
+.related-title {
+  margin-top: 10rem;
+  font-family: var(--sans-reg);
+  font-weight: normal;
+} */
+
+/* Header */
+/* .section-inner.thin {
+  max-width: 100%;
+}
+
+.section-inner.thin > p {
+  max-width: 45rem;
+}
+
+header.page-header.section-inner h1.title.entry-title,
+header.page-header.section-inner .meta,
+.page-header p {
+  text-align: left;
+}
+
+header.page-header.section-inner h1.title.entry-title {
+  font-family: var(--sans-reg);
+}
+
+.page-header p {
+  margin-top: 0.8rem;
+}
+
+.single .page-header > div {
+  margin-top: 1rem;
+  justify-content: start;
+}
+
+header.page-header.section-inner .meta {
+  margin-top: 0;
+  margin-bottom: 2rem;
+} */
+
+/* the excerpt */
+/* .page-header p:last-child {
+  max-width: 40rem;
+}
+
+.prev-next-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--sans-med);
+} */
+
+/* Archive 
+   ------------------------------ */
+
+/* .archive .page-header {
+  width: 100%;
+}
+.archive h1.title {
+  text-align: left;
+  font-family: var(--sans-reg);
+} */
+
+/* About 
+   ------------------------------ */
+/* body.page-about .page-header {
+  min-height: auto;
+  margin: 0 auto 2rem auto;
+}
+
+body.page-about .page-header p {
+  font-size: 1.65rem;
+}
+
+body.page-about .page-header p:last-child {
+  max-width: 45rem;
+} */
+
+/* Buttons
+   ------------------------------ */
+
+/* .cl-button {
+  margin-top: 2rem;
+}
+
+.cl-button a,
+.cl-button a:link,
+.cl-button a:visited {
+  color: var(--bg-color);
+  background-color: var(--text-color);
+  border: none;
+  border-radius: 0;
+  display: inline-block;
+  font-family: var(--sans-med);
+  font-size: 1.2rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.cl-button a:hover,
+.cl-button a:focus,
+.cl-button a:active {
+  background-color: #000;
+} */
