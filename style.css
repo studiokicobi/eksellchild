@@ -131,12 +131,12 @@ footer {
   font-family: var(--sans-heading-light);
   font-weight: 300;
   font-style: normal;
-  font-size: 3.5rem;
+  font-size: 3.25rem;
 }
 
 @media (max-width: 959px) {
   .home .archive-header .archive-title {
-    font-size: 3.0rem;
+    font-size: 2.75rem;
   }
 }
 
@@ -160,6 +160,10 @@ footer {
   padding-top: 2rem;
 }
 
+.filter-list {
+  font-weight: 400;
+}
+
 /* Adjust filter position based on screen size */
 @media (max-width: 959px) {
   .archive-header .filter-wrapper {
@@ -176,6 +180,19 @@ footer {
 @media (min-width: 1200px) {
   .archive-header .filter-wrapper {
     margin: 10rem 0 0;
+  }
+}
+
+/* Distance between filter and content */
+@media (min-width: 1200px) {
+  .archive-header {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .archive-header {
+    margin-bottom: 2.4rem;
   }
 }
 
