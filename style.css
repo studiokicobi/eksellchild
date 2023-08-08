@@ -69,7 +69,6 @@ font-weight: 300;
 font-style: normal;
 */
 
-
 /* Variables
    ------------------------------ */
 :root {
@@ -82,7 +81,7 @@ font-style: normal;
   --sans-med: "HalisR-Medium", sans-serif;
   --serif: ff-tisa-web-pro, serif;
 
-  --sans-heading-light: 1.2rem 300 ff-real-headline-pro-2, sans-serif;
+  --sans-heading-light: ff-real-headline-pro-2, sans-serif;
   --eksell-body-font: ff-real-text-pro, sans-serif !important;
   --eksell-headings-font: ff-real-headline-pro, sans-serif !important;
   --eksell-headings-weight: 600 !important;
@@ -100,24 +99,29 @@ body {
 
 /* Nav 
    ------------------------------ */
-
 .site-title {
   font-family: var(--eksell-headings-font);
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 3rem;
 }
-
 
 /* Footer
    ------------------------------ */
-
 footer {
+  background: #000000;
+  color: white;
   font-family: var(--eksell-body-font);
   opacity: 0.8;
 }
 
 /* Home 
    ------------------------------ */
+/* Main description */
+.home .archive-header .archive-title {
+  font-family: var(--sans-heading-light);
+  font-weight: 300;
+  font-style: normal;
+}
 
 /* Change headings below preview images */ 
    @media (min-width: 700px) {
@@ -132,6 +136,55 @@ footer {
   box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.13);
 } */
 
+/* Homepage filter 
+   ------------------------------ */
+.filter-wrapper {
+  border-top: 2px solid #ddd;
+  padding-top: 2rem;
+}
+
+/* Adjust filter position based on screen size */
+@media only screen and (max-width: 959px) {
+  .filter-wrapper {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .filter-wrapper {
+    margin-top: 10rem;
+  }
+}
+
+/* Headshot/logo
+   ------------------------------ */
+/* Remove headshot illustration at small screen sizes */
+@media only screen and (max-width: 600px) {
+  .site-logo img,
+  .customize-partial-edit-shortcut-custom_logo {
+    display: none;
+  }
+  .site-title {
+    margin-left: 0;
+  }
+}
+
+/* BLockquotes 
+   ------------------------------ */
+/* Blockquote accent color */
+blockquote.wp-block-quote.post-quote {
+  background-color: white;
+  padding: 2.5rem 2.5rem 2.5rem 3rem;
+  border-left-width: 1rem;
+  border-left-color: #ddd;
+}
+
+/* Cite */
+blockquote cite {
+  color: #111;
+  font-family: var(--eksell-headings-font);
+  letter-spacing: -0.05rem;
+}
 
 /* The rest 
    ------------------------------ */
