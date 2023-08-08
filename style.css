@@ -97,6 +97,13 @@ body {
   color: var(--text-color);
 }
 
+/* em used for captions */
+em {
+  font-family: ff-real-text-pro, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
 /* Nav 
    ------------------------------ */
 #site-header .site-title {
