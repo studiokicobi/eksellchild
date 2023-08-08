@@ -232,6 +232,13 @@ blockquote cite {
   letter-spacing: -0.05rem;
 }
 
+/* Single
+   ------------------------------ */
+/* Make header/headlines full-width */
+   :root .mw-thin {
+  max-width: 100%;
+}
+
 /* The rest 
    ------------------------------ */
 hr,
