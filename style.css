@@ -239,6 +239,19 @@ blockquote cite {
   max-width: 100%;
 }
 
+.intro-text {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 700px) {
+  .intro-text {
+    font-size: 3rem;
+    font-family: var(--sans-heading-light);
+    font-weight: 300;
+    font-style: normal;
+  }
+}
+
 /* The rest 
    ------------------------------ */
 hr,
