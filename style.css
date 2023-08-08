@@ -102,7 +102,7 @@ body {
 .site-title {
   font-family: var(--eksell-headings-font);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 /* Footer
@@ -121,6 +121,7 @@ footer {
   font-family: var(--sans-heading-light);
   font-weight: 300;
   font-style: normal;
+  font-size: 3.5rem;
 }
 
 /* Change headings below preview images */ 
