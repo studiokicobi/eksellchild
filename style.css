@@ -84,7 +84,7 @@ font-style: normal;
 
   --sans-heading-light: 1.2rem 300 ff-real-headline-pro-2, sans-serif;
   --eksell-body-font: ff-real-text-pro, sans-serif !important;
-  --eksell-headings-font: ff-real-headline-pro-2, sans-serif !important;
+  --eksell-headings-font: ff-real-headline-pro, sans-serif !important;
   --eksell-headings-weight: 600 !important;
 }
 
