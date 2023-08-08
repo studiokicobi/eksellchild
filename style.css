@@ -16,40 +16,59 @@
 /* Fonts
    ------------------------------ */
 /* 
+# HALIS ROUNDED
 font-family: "HalisR-Regular";
 font-family: "HalisR-Medium";
 font-family: "HalisR-S-Medium";
 */
 
+/*
 @font-face {
   font-family: "HalisR-Regular";
-  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Regular-webfont.woff2")
-      format("woff2"),
-    url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Regular-webfont.woff")
-      format("woff");
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Regular-webfont.woff2") format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "HalisR-Medium";
-  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Medium-webfont.woff2")
-      format("woff2"),
-    url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Medium-webfont.woff")
-      format("woff");
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Medium-webfont.woff2") format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-Medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "HalisR-S-Medium";
-  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-S-Medium-webfont.woff2")
-      format("woff2"),
-    url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-S-Medium-webfont.woff")
-      format("woff");
+  src: url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-S-Medium-webfont.woff2") format("woff2"),
+    url("https://portfolio.colinlewis.se/wp-content/themes/eksellchild/fonts/HalisR-S-Medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
+*/
+
+/*
+# REAL HEADLINE PRO & REAL TEXT PRO (ADOBE)
+## Real Headline Pro Extralight 
+font-family: "ff-real-headline-pro-2",
+sans-serif;
+font-weight: 300;
+font-style: normal;
+
+## Real Headline Pro Demibold 
+font-family: "ff-real-headline-pro",
+sans-serif;
+font-weight: 600;
+font-style: normal;
+
+## Real Text Pro Regular 
+font-family: "ff-real-text-pro",
+sans-serif;
+font-weight: 300;
+font-style: normal;
+*/
+
 
 /* Variables
    ------------------------------ */
@@ -63,17 +82,18 @@ font-family: "HalisR-S-Medium";
   --sans-med: "HalisR-Medium", sans-serif;
   --serif: ff-tisa-web-pro, serif;
 
-  --eksell-body-font: ff-tisa-web-pro, serif !important;
-  --eksell-headings-font: "HalisR-Medium", sans-serif !important;
-  --eksell-headings-weight: 400 !important;
+  --sans-heading-light: 1.2rem 300 ff-real-headline-pro-2, sans-serif;
+  --eksell-body-font: ff-real-text-pro, sans-serif !important;
+  --eksell-headings-font: ff-real-headline-pro-2, sans-serif !important;
+  --eksell-headings-weight: 600 !important;
 }
 
 /* Base
    ------------------------------ */
 /* Change default font */
 body {
-  font-family: var(--serif);
-  font-weight: 400;
+  font-family: var(--eksell-body-font);
+  font-weight: 300;
   font-style: normal;
   color: var(--text-color);
 }
@@ -82,7 +102,7 @@ body {
    ------------------------------ */
 
 .site-title {
-  font-family: var(--sans-med);
+  font-family: var(--eksell-headings-font);
   font-size: 2.2rem;
 }
 
@@ -91,7 +111,7 @@ body {
    ------------------------------ */
 
 footer {
-  font-family: var(--sans-reg);
+  font-family: var(--eksell-body-font);
   opacity: 0.8;
 }
 
@@ -102,20 +122,21 @@ footer {
    @media (min-width: 700px) {
   .home .h4 {
     font-size: 2.2rem;
-    font-family: var(--sans-reg);
+    font-family: var(--eksell-headings-font);
   }
 }
 
 /* Add shadow to preview images */ 
-.preview-media {
+/* .preview-media {
   box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.13);
-}
+} */
 
 
 /* The rest 
    ------------------------------ */
 hr {
-  background-image: linear-gradient(-45deg, var(--eksell-border-color) 25%, var(--eksell-border-color) 25%, var(--eksell-border-color) 50%, var(--eksell-border-color) 50%, var(--eksell-border-color) 75%, var(--eksell-border-color) 75%, var(--eksell-border-color)) !important;
+  /* background-image: linear-gradient(-45deg, var(--eksell-border-color) 25%, var(--eksell-border-color) 25%, var(--eksell-border-color) 50%, var(--eksell-border-color) 50%, var(--eksell-border-color) 75%, var(--eksell-border-color) 75%, var(--eksell-border-color)) !important; */
+  display: none;
 }
 
 /* Meta */
