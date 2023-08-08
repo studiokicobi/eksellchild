@@ -156,7 +156,7 @@ footer {
 /* Homepage filter 
    ------------------------------ */
 .filter-wrapper {
-  border-top: 2px solid #ddd;
+  /* border-top: 2px solid #ddd; */
   padding-top: 2rem;
 }
 
