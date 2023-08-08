@@ -146,19 +146,19 @@ footer {
 
 /* Adjust filter position based on screen size */
 @media (max-width: 959px) {
-  .filter-wrapper {
+  .archive-header .filter-wrapper {
     margin-top: 4rem;
   }
 }
 
 @media (min-width: 960px) {
-  .filter-wrapper {
+  .archive-header .filter-wrapper {
     margin: 10rem 0 0;  
   }
 }
 
 @media (min-width: 1200px) {
-  .filter-wrapper {
+  .archive-header .filter-wrapper {
     margin: 10rem 0 0;
   }
 }
