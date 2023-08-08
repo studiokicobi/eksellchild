@@ -235,7 +235,7 @@ blockquote cite {
 /* Single
    ------------------------------ */
 /* Make header/headlines full-width */
-   :root .mw-thin {
+   :root header.mw-thin {
   max-width: 100%;
 }
 
