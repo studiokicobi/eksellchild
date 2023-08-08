@@ -234,7 +234,8 @@ blockquote cite {
 
 /* The rest 
    ------------------------------ */
-hr {
+hr,
+hr.color-accent {
   /* background-image: linear-gradient(-45deg, var(--eksell-border-color) 25%, var(--eksell-border-color) 25%, var(--eksell-border-color) 50%, var(--eksell-border-color) 50%, var(--eksell-border-color) 75%, var(--eksell-border-color) 75%, var(--eksell-border-color)) !important; */
   display: none;
 }
