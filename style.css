@@ -116,6 +116,10 @@ footer {
 
 /* Home 
    ------------------------------ */
+.home #site-content {
+  margin-top: -8rem;
+}
+
 /* Main description */
 .home .archive-header .archive-title {
   font-family: var(--sans-heading-light);
@@ -147,7 +151,7 @@ footer {
 /* Adjust filter position based on screen size */
 @media (max-width: 959px) {
   .archive-header .filter-wrapper {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 }
 
