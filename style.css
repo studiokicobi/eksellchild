@@ -105,6 +105,12 @@ body {
   font-size: 3.5rem;
 }
 
+@media (max-width: 959px) {
+  #site-header .site-title {    
+    font-size: 3.0rem;
+  }
+}
+
 /* Footer
    ------------------------------ */
 footer {
@@ -130,7 +136,7 @@ footer {
 
 @media (max-width: 959px) {
   .home .archive-header .archive-title {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
   }
 }
 
