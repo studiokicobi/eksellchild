@@ -185,13 +185,13 @@ footer {
 
 /* Distance between filter and content */
 @media (min-width: 1200px) {
-  .archive-header {
+.site-content-inner .archive-header {
     margin-bottom: 2.4rem;
   }
 }
 
 @media (min-width: 700px) {
-  .archive-header {
+.site-content-inner .archive-header {
     margin-bottom: 2.4rem;
   }
 }
