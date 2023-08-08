@@ -259,6 +259,35 @@ blockquote cite {
   }
 }
 
+/* Next/Previous single nav at bottom */
+.single-nav {
+  background-color: rgba(0, 0, 0, 0.08);
+  width: 100%;
+  padding: 5rem;
+}
+
+@media (min-width: 700px) {
+  .single-nav {
+    margin: 12.8rem 0 0 0;
+  }
+}
+
+@media (min-width: 700px) {
+  #site-footer {
+    margin-top: 0;
+  }
+}
+
+/* The next/prev arrows for single nav */
+div.arrow { 
+  display: none;
+}
+
+/* Remove social menu from header */
+.header-toggles {
+  display: none;
+}
+
 /* The rest 
    ------------------------------ */
 hr,
