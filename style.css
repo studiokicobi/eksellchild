@@ -111,6 +111,12 @@ body {
   }
 }
 
+/* Menu label */
+.nav-toggle-text span {
+  font-weight: 600;
+  font-family: ff-real-headline-pro;
+}
+
 /* Footer
    ------------------------------ */
 footer {
