@@ -289,6 +289,10 @@ div.arrow {
   display: none;
 }
 
+figcaption {
+  text-align: center;
+}
+
 /* The rest 
    ------------------------------ */
 hr,
