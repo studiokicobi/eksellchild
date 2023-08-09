@@ -295,9 +295,9 @@ blockquote cite {
 } */
 
 /* Remove social menu from header */
-#site-header .header-toggles {
+/* #site-header .header-toggles {
   display: none;
-}
+} */
 
 figcaption.wp-element-caption {
   text-align: center;
