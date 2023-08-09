@@ -280,9 +280,9 @@ blockquote cite {
 }
 
 /* The next/prev arrows for single nav */
-div.arrow { 
+/* div.arrow { 
   display: none;
-}
+} */
 
 /* Remove social menu from header */
 #site-header .header-toggles {
