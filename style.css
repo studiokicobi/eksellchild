@@ -145,6 +145,7 @@ footer {
   font-weight: 300;
   font-style: normal;
   font-size: 3.25rem;
+  max-width: 30ch;
 }
 
 @media (max-width: 959px) {
