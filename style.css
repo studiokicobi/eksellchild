@@ -104,6 +104,17 @@ em {
   font-style: italic;
 }
 
+/* Header 
+   ------------------------------ */
+@media (max-width:699px) {
+  #site-header {
+    margin-bottom: 4rem;
+    /* min-height: 12rem; */
+    padding: 2.4rem 0;
+  }
+}
+
+
 /* Nav 
    ------------------------------ */
 #site-header .site-title {
