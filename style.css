@@ -137,10 +137,10 @@ em {
 /* Footer
    ------------------------------ */
 footer {
-  background: #000000;
-  color: white;
+  background: #fff;
+  color: #111;
   font-family: var(--eksell-body-font);
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Home 
