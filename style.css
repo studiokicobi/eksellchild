@@ -106,8 +106,8 @@ em {
 
 /* Header 
    ------------------------------ */
-@media (max-width:699px) {
-  #site-header {
+@media (max-width: 699px) {
+  body.home #site-header {
     margin-bottom: 8rem;
     padding: 2.4rem 0;
   }
