@@ -108,8 +108,7 @@ em {
    ------------------------------ */
 @media (max-width:699px) {
   #site-header {
-    margin-bottom: 4rem;
-    /* min-height: 12rem; */
+    margin-bottom: 8rem;
     padding: 2.4rem 0;
   }
 }
