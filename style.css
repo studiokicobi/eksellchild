@@ -136,7 +136,7 @@ em {
 
 /* Footer
    ------------------------------ */
-footer {
+footer#site-footer {
   background: #fff;
   color: #111;
   font-family: var(--eksell-body-font);
