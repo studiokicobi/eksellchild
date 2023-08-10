@@ -301,11 +301,6 @@ blockquote cite {
   }
 }
 
-/* The next/prev arrows for single nav */
-/* div.arrow { 
-  display: none;
-} */
-
 /* Remove social menu from header */
 #site-header .header-toggles .social-menu {
   display: none;
@@ -313,6 +308,12 @@ blockquote cite {
 
 figcaption.wp-element-caption {
   text-align: center;
+}
+
+/* Info page
+   ------------------------------ */
+body.info figure.alignleft {
+  margin: 2rem 0 0 0 !important;
 }
 
 /* The rest 
