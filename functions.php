@@ -51,3 +51,12 @@ function add_slug_body_class($classes)
 	return $classes;
 }
 add_filter('body_class', 'add_slug_body_class');
+
+// Email obfuscation
+// https://www.isitwp.com/email-encode-shortcode/
+// Use in posts: [email]youremail@example.com[/email]
+function email_encode_function($atts, $content)
+{
+	return '<a href="' . antispambot("mailto:" . $content) . '">' . antispambot($content) . '</a>';
+}
+add_shortcode('email', 'email_encode_function');
