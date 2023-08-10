@@ -312,9 +312,9 @@ figcaption.wp-element-caption {
 
 /* Info page
    ------------------------------ */
-body.page-info figure.alignleft {
+/* body.page-info figure.alignleft {
   margin: 2rem 0 0 0 !important;
-}
+} */
 
 /* The rest 
    ------------------------------ */
