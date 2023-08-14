@@ -153,6 +153,21 @@ body:not(.home) #site-header .site-title {
   font-family: ff-real-headline-pro;
 }
 
+/* Always show mobile menu */
+html body { 
+  border-left: 0; 
+}
+
+html body #site-aside {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  #site-header .header-toggles .nav-toggle {
+    display: flex;
+  }
+}
+
 /* Footer
    ------------------------------ */
 footer#site-footer {
