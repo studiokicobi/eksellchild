@@ -113,6 +113,14 @@ em {
   }
 }
 
+/* Layout for title + strapline */
+.header-titles {
+  flex-direction: column;
+}
+
+/* Strapline */
+.site-description {
+}
 
 /* Nav 
    ------------------------------ */
