@@ -81,7 +81,7 @@ font-style: normal;
   --sans-med: "HalisR-Medium", sans-serif;
   --serif: ff-tisa-web-pro, serif; */
 
-  --sans-heading-light: ff-real-headline-pro, sans-serif;
+  --sans-heading-light: ff-real-text-pro, sans-serif;
   --eksell-body-font: ff-real-text-pro, sans-serif !important;
   --eksell-headings-font: ff-real-headline-pro, sans-serif !important;
   --eksell-headings-weight: 600 !important;
@@ -120,6 +120,8 @@ em {
 
 /* Strapline */
 .site-description {
+  font-family: var(--sans-heading-light);
+  font-weight: 200;
 }
 
 /* Nav 
