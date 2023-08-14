@@ -188,6 +188,12 @@ html body #site-aside {
   }
 }
 
+@media (min-width: 700px) {
+  .menu-modal .modal-menu-wrapper {
+    padding: 0 calc(var(--eksell-inner-gutter) / 2);
+  }
+}
+
 
 /* Footer
    ------------------------------ */
