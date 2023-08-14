@@ -169,12 +169,12 @@ html body #site-aside {
 }
 
 @media (min-width: 700px) {
-  #site-aside .menu-modal-inner {
+  .menu-modal .menu-modal-inner {
     min-width: 100% !important;
     width: 100 !important%;
   }
 
-  #site-aside .menu-modal.active {
+  .menu-modal .menu-modal.active {
     left: 0 !important;
   }
 }
