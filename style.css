@@ -113,6 +113,10 @@ em {
   }
 }
 
+#site-header {
+  background-color: rgba(256, 256, 256, 0.8);
+}
+
 /* Layout for title + strapline */
 .header-titles {
   flex-direction: column;
@@ -132,6 +136,11 @@ em {
   font-size: 3.0rem;
 }
 
+body:not(.home) #site-header .site-title {
+  font-family: var(--eksell-headings-font);
+    font-weight: 600;
+}
+
 @media (max-width: 959px) {
   #site-header .site-title {    
     font-size: 2.5rem;
@@ -147,10 +156,16 @@ em {
 /* Footer
    ------------------------------ */
 footer#site-footer {
-  background: #fff;
+  background-color: rgba(256, 256, 256, 0.8);
   color: #111;
   font-family: var(--eksell-body-font);
   opacity: 1;
+}
+
+.footer-credits {
+  font-weight: 200;
+  color: #757575;
+  font-size: 90%;
 }
 
 /* Home 
