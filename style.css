@@ -173,8 +173,10 @@ html body #site-aside {
     min-width: 100%;
     width: 100%;
   }
+}
 
-  .menu-modal .menu-modal.active {
+@media (min-width: 700px) {
+  body .menu-modal.active {
     left: 0;
   }
 }
