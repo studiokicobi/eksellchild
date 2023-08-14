@@ -200,6 +200,12 @@ html body #site-aside {
     padding: 5.2rem 0;
   }
 }
+
+#site-header .header-toggles .mobile-nav-toggle-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
 /* Footer
    ------------------------------ */
 footer#site-footer {
