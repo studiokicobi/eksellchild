@@ -113,9 +113,9 @@ em {
   }
 }
 
-body #site-header {
+/* body #site-header {
   background-color: rgba(256, 256, 256, 0.8);
-}
+} */
 
 /* Layout for title + strapline */
 .header-titles {
@@ -126,6 +126,7 @@ body #site-header {
 .site-description {
   font-family: var(--sans-heading-light);
   font-weight: 200;
+  display: none;
 }
 
 /* Nav 
@@ -194,7 +195,11 @@ html body #site-aside {
   }
 }
 
-
+@media (min-width: 700px) {
+  body .menu-modal-toggles .nav-untoggle {
+    padding: 5.2rem 0;
+  }
+}
 /* Footer
    ------------------------------ */
 footer#site-footer {
