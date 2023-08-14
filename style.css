@@ -155,7 +155,7 @@ body:not(.home) #site-header .site-title {
 
 /* Always show mobile menu */
 html body { 
-  border-left: 0 !important; 
+  border-left: 0; 
 }
 
 html body #site-aside {
@@ -164,18 +164,18 @@ html body #site-aside {
 
 @media (min-width: 700px) {
   #site-header .header-toggles .nav-toggle {
-    display: flex !important;
+    display: flex;
   }
 }
 
 @media (min-width: 700px) {
   .menu-modal .menu-modal-inner {
-    min-width: 100% !important;
-    width: 100 !important%;
+    min-width: 100%;
+    width: 100%;
   }
 
   .menu-modal .menu-modal.active {
-    left: 0 !important;
+    left: 0;
   }
 }
 
