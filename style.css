@@ -154,8 +154,14 @@ body:not(.home) #site-header .site-title {
   font-family: ff-real-headline-pro;
 }
 
+#site-header .header-toggles .mobile-nav-toggle-text,
+#site-header .header-toggles .nav-untoggle-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
 /* Always show mobile menu */
-html body { 
+/* html body { 
   border-left: 0; 
 }
 
@@ -199,13 +205,7 @@ html body #site-aside {
   body .menu-modal-toggles .nav-untoggle {
     padding: 5.2rem 0;
   }
-}
-
-#site-header .header-toggles .mobile-nav-toggle-text,
-#site-header .header-toggles .nav-untoggle-text {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-}
+} */
 
 /* Footer
    ------------------------------ */
