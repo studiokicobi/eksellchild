@@ -75,6 +75,7 @@ font-style: normal;
   /* Colours */
   --text-color: #2c2525;
   --bg-color: #fffbf9;
+  /* faf7f4 */
 
   /* Fonts */
   /* --sans-reg: "HalisR-Regular", sans-serif;
@@ -87,9 +88,14 @@ font-style: normal;
   --eksell-headings-weight: 600 !important;
 
   --eksell-aside-width: 10rem !important;
+ }
+ 
+ /* Override body border eksell-aside-width on mobile */
+@media (max-width: 699px) {
+  html body {
+    border-left: 0;
+  }
 }
-
-
 
 /* Base
    ------------------------------ */
@@ -98,7 +104,6 @@ body {
   font-family: var(--eksell-body-font);
   font-weight: 300;
   font-style: normal;
-  color: var(--text-color);
 }
 
 /* em used for captions */
