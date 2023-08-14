@@ -201,7 +201,8 @@ html body #site-aside {
   }
 }
 
-#site-header .header-toggles .mobile-nav-toggle-text {
+#site-header .header-toggles .mobile-nav-toggle-text,
+#site-header .header-toggles .nav-untoggle-text {
   font-size: 1.4rem;
   text-transform: uppercase;
 }
