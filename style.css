@@ -85,7 +85,11 @@ font-style: normal;
   --eksell-body-font: ff-real-text-pro, sans-serif !important;
   --eksell-headings-font: ff-real-headline-pro, sans-serif !important;
   --eksell-headings-weight: 600 !important;
+
+  --eksell-aside-width { 10rem !important; }
 }
+
+
 
 /* Base
    ------------------------------ */
