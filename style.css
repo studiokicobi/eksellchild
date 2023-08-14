@@ -181,6 +181,14 @@ html body #site-aside {
   }
 }
 
+@media (min-width: 700px) {
+  .modal-menu-wrapper .menu-modal-toggles,
+  .modal-menu-wrapper .menu-modal-search {
+    display: block;
+  }
+}
+
+
 /* Footer
    ------------------------------ */
 footer#site-footer {
