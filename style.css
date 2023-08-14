@@ -168,6 +168,17 @@ html body #site-aside {
   }
 }
 
+@media (min-width: 700px) {
+  #site-aside .menu-modal-inner {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  #site-aside .menu-modal.active {
+    left: 0;
+  }
+}
+
 /* Footer
    ------------------------------ */
 footer#site-footer {
