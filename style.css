@@ -285,7 +285,7 @@ blockquote cite {
   .intro-text {
     font-size: 3rem;
     font-family: var(--sans-heading-light);
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
   }
 }
